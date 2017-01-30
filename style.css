@@ -1,0 +1,251 @@
+body{
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	margin:0;
+    background:url(bg7.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+
+ img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 100%;
+  }
+
+.image-circle{
+  border-radius: 100%;
+}
+
+#header-nav{
+	border-radius: 0;
+	border: 0;
+	margin-top: 0;
+    background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+.navbar-fixed-top {
+  position: relative;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus  {
+  text-decoration: none;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+	color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+     opacity:0.6;
+    filter: alpha(opacity=50);
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#nav-list a: hover{
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+.main{
+   text-align: center;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+   background-color: transparent;
+  border-color: transparent;
+  opacity:0.6;
+    filter: alpha(opacity=50); 
+}
+section {
+   width: auto;
+  height:auto;
+    text-shadow: 1px 1px 1px #222;
+    padding: 200px 100px 300px;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    margin-top: 30px;
+}
+
+/** end of sections**/
+
+/**  FOOTER**/
+footer{
+  text-align: center;
+  color:white;
+  width: auto;
+  height: 100px;
+   background-color: transparent;
+  border-color: transparent;
+  opacity:0.6;
+    filter: alpha(opacity=50);
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+  background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+  background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+  background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+  background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+}
+.social-circle li i {
+  margin:0;
+  line-height:50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+
+/********** large devices only **********/
+
+@media (min-width: 1200px) {
+	.col-lg-12 {
+}
+.col-lg-12 {
+    width: 100%;
+  }  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.col-md-12 {
+    float: left;
+}
+.col-md-12 {
+    width: 100%;
+  }
+ }
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.col-sm-12{
+    float: left;
+}
+.col-sm-12 {
+    width: 100%;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+	.col-xs-12 {
+    float: left;
+}
+.col-xs-12 {
+    width: 100%;
+  }
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  /* End Header */
+
+
+}
